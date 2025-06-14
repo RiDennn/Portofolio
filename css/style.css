@@ -24,7 +24,6 @@ main {
   background-image: url("../image/MainBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420vh;
   z-index: -1;
 }
 
