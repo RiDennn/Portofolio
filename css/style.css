@@ -386,10 +386,6 @@ hr {
   body {
     width: 100%;
   }
-
-  main {
-  height: 310vh;
-  }
   
   .padding {
     padding-left: 10%;
@@ -516,15 +512,16 @@ hr {
     flex-direction: column;
     align-items: center;
     margin-top: 0px;
-    padding-top: -100px;
+    padding-top: 0px;
     padding: 0px;
     margin: 0px;
   }
 
   .Big2 {
-    font-size: 25px;
+    font-size: 23px;
     width: 1000px;
     line-height: 20px;
+    padding-bottom: 0px;
   }
 
   hr {
@@ -598,10 +595,11 @@ hr {
   
   /* Third Section */
   .Special2 {
-    font-size: 12px;
+    font-size: 10px;
     width: 100%;
     padding-top: 20px;
     padding-right: 0px;
+    padding-left: 0px;
   }
 
   .portofolio-header {
@@ -611,7 +609,7 @@ hr {
   .portofolio-section {
     width: 85%;                 
     max-width: 1100px;           
-    margin: 10px auto 0 auto;  
+    margin: -10px auto 0 auto;  
     padding: 0px;
     padding-bottom: 60px;
     background-color: #0b1527;
@@ -673,7 +671,10 @@ hr {
     color: #ccc;
   }
 
-  /* Third Section */
+  /* Fourth Section */
+  .closing-section {
+    padding-top: 0px;
+  }
   .cta-text h2 {
     position: relative;
     width: 160%;
@@ -696,9 +697,10 @@ hr {
   }
 
   .footer {
-    bottom: 0%;
-    top: 1%;
+    bottom: 0;
+    top: 20%;
     height: 50px;
+    padding-top: 0px;
   }
 
   .ImageFooter {
@@ -706,5 +708,17 @@ hr {
     height: 20px;
     padding-left: 10%;
   }
+
+  .full-page {
+  height: 95vh;
+}
+
+.three-quarter-page {
+  height: 70vh;
+}
+
+.half-page {
+  height: 50vh;
+}
 
 }
